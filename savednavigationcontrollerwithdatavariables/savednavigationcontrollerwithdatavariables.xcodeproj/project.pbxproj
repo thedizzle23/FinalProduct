@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20413A215C479CE003841D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20413A115C479CE003841D3 /* UIKit.framework */; };
+		B20413A415C479CE003841D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20413A315C479CE003841D3 /* Foundation.framework */; };
+		B20413A615C479CE003841D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20413A515C479CE003841D3 /* CoreGraphics.framework */; };
+		B20413AC15C479CE003841D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B20413AA15C479CE003841D3 /* InfoPlist.strings */; };
+		B20413AE15C479CE003841D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B20413AD15C479CE003841D3 /* main.m */; };
+		B20413B215C479CE003841D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B20413B115C479CE003841D3 /* AppDelegate.m */; };
+		B20413B515C479CF003841D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20413B315C479CF003841D3 /* MainStoryboard.storyboard */; };
+		B20413B815C479CF003841D3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20413B715C479CF003841D3 /* FirstViewController.m */; };
+		B20413BA15C479CF003841D3 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B20413B915C479CF003841D3 /* first.png */; };
+		B20413BC15C479CF003841D3 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B20413BB15C479CF003841D3 /* first@2x.png */; };
+		B20413BF15C479CF003841D3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20413BE15C479CF003841D3 /* SecondViewController.m */; };
+		B20413C115C479CF003841D3 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B20413C015C479CF003841D3 /* second.png */; };
+		B20413C315C479CF003841D3 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B20413C215C479CF003841D3 /* second@2x.png */; };
+		B20413CB15C479CF003841D3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20413CA15C479CF003841D3 /* SenTestingKit.framework */; };
+		B20413CC15C479CF003841D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20413A115C479CE003841D3 /* UIKit.framework */; };
+		B20413CD15C479CF003841D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20413A315C479CE003841D3 /* Foundation.framework */; };
+		B20413D515C479CF003841D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B20413D315C479CF003841D3 /* InfoPlist.strings */; };
+		B20413D815C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20413D715C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20413CE15C479CF003841D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B204139415C479CE003841D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B204139C15C479CE003841D3;
+			remoteInfo = savednavigationcontrollerwithdatavariables;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B204139D15C479CE003841D3 /* savednavigationcontrollerwithdatavariables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = savednavigationcontrollerwithdatavariables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20413A115C479CE003841D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B20413A315C479CE003841D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B20413A515C479CE003841D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B20413A915C479CE003841D3 /* savednavigationcontrollerwithdatavariables-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "savednavigationcontrollerwithdatavariables-Info.plist"; sourceTree = "<group>"; };
+		B20413AB15C479CE003841D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B20413AD15C479CE003841D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B20413AF15C479CE003841D3 /* savednavigationcontrollerwithdatavariables-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "savednavigationcontrollerwithdatavariables-Prefix.pch"; sourceTree = "<group>"; };
+		B20413B015C479CE003841D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B20413B115C479CE003841D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B20413B415C479CF003841D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B20413B615C479CF003841D3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B20413B715C479CF003841D3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B20413B915C479CF003841D3 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B20413BB15C479CF003841D3 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B20413BD15C479CF003841D3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B20413BE15C479CF003841D3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B20413C015C479CF003841D3 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B20413C215C479CF003841D3 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B20413C915C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = savednavigationcontrollerwithdatavariablesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20413CA15C479CF003841D3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B20413D215C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "savednavigationcontrollerwithdatavariablesTests-Info.plist"; sourceTree = "<group>"; };
+		B20413D415C479CF003841D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B20413D615C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = savednavigationcontrollerwithdatavariablesTests.h; sourceTree = "<group>"; };
+		B20413D715C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = savednavigationcontrollerwithdatavariablesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B204139A15C479CE003841D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20413A215C479CE003841D3 /* UIKit.framework in Frameworks */,
+				B20413A415C479CE003841D3 /* Foundation.framework in Frameworks */,
+				B20413A615C479CE003841D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20413C515C479CF003841D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20413CB15C479CF003841D3 /* SenTestingKit.framework in Frameworks */,
+				B20413CC15C479CF003841D3 /* UIKit.framework in Frameworks */,
+				B20413CD15C479CF003841D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B204139215C479CE003841D3 = {
+			isa = PBXGroup;
+			children = (
+				B20413A715C479CE003841D3 /* savednavigationcontrollerwithdatavariables */,
+				B20413D015C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests */,
+				B20413A015C479CE003841D3 /* Frameworks */,
+				B204139E15C479CE003841D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B204139E15C479CE003841D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B204139D15C479CE003841D3 /* savednavigationcontrollerwithdatavariables.app */,
+				B20413C915C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20413A015C479CE003841D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20413A115C479CE003841D3 /* UIKit.framework */,
+				B20413A315C479CE003841D3 /* Foundation.framework */,
+				B20413A515C479CE003841D3 /* CoreGraphics.framework */,
+				B20413CA15C479CF003841D3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B20413A715C479CE003841D3 /* savednavigationcontrollerwithdatavariables */ = {
+			isa = PBXGroup;
+			children = (
+				B20413B015C479CE003841D3 /* AppDelegate.h */,
+				B20413B115C479CE003841D3 /* AppDelegate.m */,
+				B20413B315C479CF003841D3 /* MainStoryboard.storyboard */,
+				B20413B615C479CF003841D3 /* FirstViewController.h */,
+				B20413B715C479CF003841D3 /* FirstViewController.m */,
+				B20413B915C479CF003841D3 /* first.png */,
+				B20413BB15C479CF003841D3 /* first@2x.png */,
+				B20413BD15C479CF003841D3 /* SecondViewController.h */,
+				B20413BE15C479CF003841D3 /* SecondViewController.m */,
+				B20413C015C479CF003841D3 /* second.png */,
+				B20413C215C479CF003841D3 /* second@2x.png */,
+				B20413A815C479CE003841D3 /* Supporting Files */,
+			);
+			path = savednavigationcontrollerwithdatavariables;
+			sourceTree = "<group>";
+		};
+		B20413A815C479CE003841D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20413A915C479CE003841D3 /* savednavigationcontrollerwithdatavariables-Info.plist */,
+				B20413AA15C479CE003841D3 /* InfoPlist.strings */,
+				B20413AD15C479CE003841D3 /* main.m */,
+				B20413AF15C479CE003841D3 /* savednavigationcontrollerwithdatavariables-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B20413D015C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20413D615C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.h */,
+				B20413D715C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.m */,
+				B20413D115C479CF003841D3 /* Supporting Files */,
+			);
+			path = savednavigationcontrollerwithdatavariablesTests;
+			sourceTree = "<group>";
+		};
+		B20413D115C479CF003841D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20413D215C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests-Info.plist */,
+				B20413D315C479CF003841D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B204139C15C479CE003841D3 /* savednavigationcontrollerwithdatavariables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20413DB15C479CF003841D3 /* Build configuration list for PBXNativeTarget "savednavigationcontrollerwithdatavariables" */;
+			buildPhases = (
+				B204139915C479CE003841D3 /* Sources */,
+				B204139A15C479CE003841D3 /* Frameworks */,
+				B204139B15C479CE003841D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = savednavigationcontrollerwithdatavariables;
+			productName = savednavigationcontrollerwithdatavariables;
+			productReference = B204139D15C479CE003841D3 /* savednavigationcontrollerwithdatavariables.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20413C815C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20413DE15C479CF003841D3 /* Build configuration list for PBXNativeTarget "savednavigationcontrollerwithdatavariablesTests" */;
+			buildPhases = (
+				B20413C415C479CF003841D3 /* Sources */,
+				B20413C515C479CF003841D3 /* Frameworks */,
+				B20413C615C479CF003841D3 /* Resources */,
+				B20413C715C479CF003841D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20413CF15C479CF003841D3 /* PBXTargetDependency */,
+			);
+			name = savednavigationcontrollerwithdatavariablesTests;
+			productName = savednavigationcontrollerwithdatavariablesTests;
+			productReference = B20413C915C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B204139415C479CE003841D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B204139715C479CE003841D3 /* Build configuration list for PBXProject "savednavigationcontrollerwithdatavariables" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B204139215C479CE003841D3;
+			productRefGroup = B204139E15C479CE003841D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B204139C15C479CE003841D3 /* savednavigationcontrollerwithdatavariables */,
+				B20413C815C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B204139B15C479CE003841D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20413AC15C479CE003841D3 /* InfoPlist.strings in Resources */,
+				B20413B515C479CF003841D3 /* MainStoryboard.storyboard in Resources */,
+				B20413BA15C479CF003841D3 /* first.png in Resources */,
+				B20413BC15C479CF003841D3 /* first@2x.png in Resources */,
+				B20413C115C479CF003841D3 /* second.png in Resources */,
+				B20413C315C479CF003841D3 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20413C615C479CF003841D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20413D515C479CF003841D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B20413C715C479CF003841D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B204139915C479CE003841D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20413AE15C479CE003841D3 /* main.m in Sources */,
+				B20413B215C479CE003841D3 /* AppDelegate.m in Sources */,
+				B20413B815C479CF003841D3 /* FirstViewController.m in Sources */,
+				B20413BF15C479CF003841D3 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20413C415C479CF003841D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20413D815C479CF003841D3 /* savednavigationcontrollerwithdatavariablesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20413CF15C479CF003841D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B204139C15C479CE003841D3 /* savednavigationcontrollerwithdatavariables */;
+			targetProxy = B20413CE15C479CF003841D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B20413AA15C479CE003841D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20413AB15C479CE003841D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B20413B315C479CF003841D3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20413B415C479CF003841D3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B20413D315C479CF003841D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20413D415C479CF003841D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20413D915C479CF003841D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B20413DA15C479CF003841D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20413DC15C479CF003841D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "savednavigationcontrollerwithdatavariables/savednavigationcontrollerwithdatavariables-Prefix.pch";
+				INFOPLIST_FILE = "savednavigationcontrollerwithdatavariables/savednavigationcontrollerwithdatavariables-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B20413DD15C479CF003841D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "savednavigationcontrollerwithdatavariables/savednavigationcontrollerwithdatavariables-Prefix.pch";
+				INFOPLIST_FILE = "savednavigationcontrollerwithdatavariables/savednavigationcontrollerwithdatavariables-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B20413DF15C479CF003841D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/savednavigationcontrollerwithdatavariables.app/savednavigationcontrollerwithdatavariables";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "savednavigationcontrollerwithdatavariables/savednavigationcontrollerwithdatavariables-Prefix.pch";
+				INFOPLIST_FILE = "savednavigationcontrollerwithdatavariablesTests/savednavigationcontrollerwithdatavariablesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B20413E015C479CF003841D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/savednavigationcontrollerwithdatavariables.app/savednavigationcontrollerwithdatavariables";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "savednavigationcontrollerwithdatavariables/savednavigationcontrollerwithdatavariables-Prefix.pch";
+				INFOPLIST_FILE = "savednavigationcontrollerwithdatavariablesTests/savednavigationcontrollerwithdatavariablesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B204139715C479CE003841D3 /* Build configuration list for PBXProject "savednavigationcontrollerwithdatavariables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20413D915C479CF003841D3 /* Debug */,
+				B20413DA15C479CF003841D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20413DB15C479CF003841D3 /* Build configuration list for PBXNativeTarget "savednavigationcontrollerwithdatavariables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20413DC15C479CF003841D3 /* Debug */,
+				B20413DD15C479CF003841D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B20413DE15C479CF003841D3 /* Build configuration list for PBXNativeTarget "savednavigationcontrollerwithdatavariablesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20413DF15C479CF003841D3 /* Debug */,
+				B20413E015C479CF003841D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B204139415C479CE003841D3 /* Project object */;
+}
